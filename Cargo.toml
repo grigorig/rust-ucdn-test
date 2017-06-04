@@ -1,0 +1,11 @@
+[package]
+name = "rust-ucdn-test"
+version = "0.1.0"
+authors = ["Grigori Goronzy <greg@chown.ath.cx>"]
+license =  "ISC"
+
+[dependencies]
+rucdn = { path = "../rust-ucdn" }
+
+[profile.release]
+lto = true
